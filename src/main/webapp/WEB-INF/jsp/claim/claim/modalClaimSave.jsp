@@ -26,7 +26,7 @@
 								</div>
 								<div class="col-sm-2 no-padding-left">		
 									<div class="input-group col-sm-12 no-padding-left no-padding-right">
-										<input class="form-control" id="txtJobNo" type="text" maxlength="20" readonly="readonly"/> 
+										<input class="form-control" id="txtJobNo" type="text"  readonly="readonly"/> 
 									</div>
 								</div>
 								
@@ -76,7 +76,7 @@
 								</div>
 								<div class="col-sm-2 no-padding-left">		
 									<div class="input-group col-sm-12 no-padding-left no-padding-right">
-										<input class="form-control require" id="txtClaimNumber" type="text" maxlength="20" title="เลขเคลม"/> 
+										<input class="form-control require" id="txtClaimNumber" type="text"  title="เลขเคลม"/> 
 									</div>
 								</div>
 								
@@ -88,7 +88,7 @@
 								
 								<div class="col-sm-2 no-padding-left">	
 									<div class="input-group col-sm-12 no-padding-left no-padding-right">
-										<input class="form-control require" id="txtPolicyNo" type="text" maxlength="20" title="เลขกรมธรรม์"/> 
+										<input class="form-control require" id="txtPolicyNo" type="text"  title="เลขกรมธรรม์"/> 
 									</div>
 								</div>
 								
@@ -100,7 +100,7 @@
 								
 								<div class="col-sm-2 no-padding-left">	
 									<div class="input-group col-sm-12 no-padding-left no-padding-right">
-										<input class="form-control require" id="txtlicenseNumber" type="text" maxlength="10" title="ทะเบียนรถ "/> 
+										<input class="form-control require" id="txtlicenseNumber" type="text"  title="ทะเบียนรถ "/> 
 									</div>
 								</div>
 							</div>
@@ -248,7 +248,7 @@
 								<div class="col-sm-2 no-padding-left">	
 									<div class="input-group col-sm-12 no-padding-left no-padding-right">
 										<div class="input-group col-sm-12 no-padding-left no-padding-right">
-											<input class="form-control" id="txtPartyLicenseNumber" type="text" maxlength="10"/> 
+											<input class="form-control" id="txtPartyLicenseNumber" type="text" /> 
 										</div>
 									</div>
 								</div>
@@ -268,7 +268,7 @@
 								</div>
 								<div class="col-sm-2 no-padding-left">		
 									<div class="input-group col-sm-12 no-padding-left no-padding-right">
-										<input class="form-control" id="txtPartyClaimNumber" type="text" maxlength="20"/> 
+										<input class="form-control" id="txtPartyClaimNumber" type="text" /> 
 									</div>
 								</div>
 								
@@ -280,7 +280,7 @@
 								
 								<div class="col-sm-2 no-padding-left">	
 									<div class="input-group col-sm-12 no-padding-left no-padding-right">
-										<input class="form-control" id="txtPartyPolicyNo" type="text" maxlength="20"/>
+										<input class="form-control" id="txtPartyPolicyNo" type="text" />
 									</div>
 								</div>
 							</div>

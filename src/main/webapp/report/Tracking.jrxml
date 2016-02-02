@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="work" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="842" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" isSummaryWithPageHeaderAndFooter="true" isFloatColumnFooter="true" uuid="f47d0e5c-18a8-4682-8ca2-5d022141717e">
 	<property name="ireport.zoom" value="1.5"/>
-	<property name="ireport.x" value="498"/>
+	<property name="ireport.x" value="412"/>
 	<property name="ireport.y" value="0"/>
 	<parameter name="titleName" class="java.lang.String"/>
 	<parameter name="insuranceFullName" class="java.lang.String"/>
@@ -277,8 +277,8 @@
 	</columnHeader>
 	<detail>
 		<band height="21" splitType="Stretch">
-			<textField pattern="#,##0" isBlankWhenNull="true">
-				<reportElement mode="Opaque" x="0" y="0" width="31" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="7a58a4d0-0525-4a1f-af04-dc0c6e0d5943"/>
+			<textField isStretchWithOverflow="true" pattern="#,##0" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="31" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="7a58a4d0-0525-4a1f-af04-dc0c6e0d5943"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -292,8 +292,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
 			</textField>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Opaque" x="31" y="0" width="56" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="0ece8e77-7125-47fc-b303-304c6fd3cd4c"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="31" y="0" width="56" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="0ece8e77-7125-47fc-b303-304c6fd3cd4c"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -307,8 +307,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{accidentDate}]]></textFieldExpression>
 			</textField>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="158" y="0" width="71" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="79db803a-f08f-4951-b3c3-a387765d6a59"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="158" y="0" width="71" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="79db803a-f08f-4951-b3c3-a387765d6a59"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -322,8 +322,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{claimNumber}]]></textFieldExpression>
 			</textField>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="229" y="0" width="67" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="8756fdf8-9f83-498c-9b43-e453f464f499"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="229" y="0" width="67" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="8756fdf8-9f83-498c-9b43-e453f464f499"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -337,8 +337,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{licenseNumber}]]></textFieldExpression>
 			</textField>
-			<textField pattern="#,##0.00" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="296" y="0" width="90" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="d6262ebe-5ff7-4a3b-8190-6c51fa31a7d0"/>
+			<textField isStretchWithOverflow="true" pattern="#,##0.00" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="296" y="0" width="90" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="d6262ebe-5ff7-4a3b-8190-6c51fa31a7d0"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -352,8 +352,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{requestAmount}]]></textFieldExpression>
 			</textField>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="386" y="0" width="81" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="411756f3-8ed3-4234-a0cd-fabc13fbaa1f"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="386" y="0" width="81" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="411756f3-8ed3-4234-a0cd-fabc13fbaa1f"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -367,8 +367,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{invoiceNumber}]]></textFieldExpression>
 			</textField>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="467" y="0" width="84" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="5f9bf0e0-94b1-4d0b-8053-d5cc34a1d00f"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="467" y="0" width="84" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="5f9bf0e0-94b1-4d0b-8053-d5cc34a1d00f"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -382,8 +382,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{partyPolicyNo}]]></textFieldExpression>
 			</textField>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="551" y="0" width="71" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="2a4b1387-ddde-4009-9f8c-16d6c4cb6303"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="551" y="0" width="71" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="2a4b1387-ddde-4009-9f8c-16d6c4cb6303"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -397,8 +397,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{partyClaimNumber}]]></textFieldExpression>
 			</textField>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="622" y="0" width="71" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="3cd2dd09-f8e1-488d-ac6a-22c4f83f5c1f"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="622" y="0" width="71" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="3cd2dd09-f8e1-488d-ac6a-22c4f83f5c1f"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -412,8 +412,8 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{partyLicenseNumber}]]></textFieldExpression>
 			</textField>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="771" y="0" width="71" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="58dfa4dd-162d-48a6-baba-b7c38729efcb"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="771" y="0" width="71" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="58dfa4dd-162d-48a6-baba-b7c38729efcb"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
@@ -442,8 +442,8 @@
 				</textElement>
 				<text><![CDATA[]]></text>
 			</staticText>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement mode="Transparent" x="87" y="0" width="71" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="f018972e-c349-4921-8b12-566740c0d7e6"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="87" y="0" width="71" height="21" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="f018972e-c349-4921-8b12-566740c0d7e6"/>
 				<box>
 					<pen lineWidth="0.5"/>
 					<topPen lineWidth="0.5"/>
