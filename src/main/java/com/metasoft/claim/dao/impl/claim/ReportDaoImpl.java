@@ -186,6 +186,8 @@ public class ReportDaoImpl extends AbstractDaoImpl<TblClaimRecovery, Integer>
 				
 			}
 			
+			criteriaCount.add(Restrictions.eq("jobStatus", JobStatus.CLOSED));
+			
 			criteriaCount.setProjection(Projections.rowCount());
 			resultPaging.setRecordsFiltered((Long) criteriaCount.uniqueResult());
 
